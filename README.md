@@ -12,17 +12,17 @@ The data set we will be using is the *day.csv* file (renamed to *bike_sharing_da
 
 Before we employ our machine learning algorithms, let us explore the data set. It accounts for a period of 731 days (two years, 2011 and 2012), during which and average of 4504.348837 bikes were rented per day.
 
-Calculating the correlations between the columns we see that attributes such as temperature, year and season have the highest correlation with the number of rentals.
+Calculating the correlations between the columns we see that attributes such as temperature, year and season have the highest correlation with the number of rentals (cnt).
 
-![Correlations](bike_sharing_corr)
+![Correlations](bike_sharing_corr.png)
 
 Next, we can plot the number of bikes rented per day, obtaining the graph below. We see that there were more rentals on 2012 than in 2011 and that most of the rentals happened towards the middle of these years.
 
-![Rentals per day](bike_sharing_plot)
+![Rentals per day](bike_sharing_plot.png)
 
 Since “temperature” had one of the highest correlations with the number of rentals, we may also plot these two in a scatter plot, from which we can see that the highest the average temperature in a given day, the more rentals there are.
 
-![Rentals per temperature](bike_sharing_scatter)
+![Rentals per temperature](bike_sharing_scatter.png)
 
 Our last step is to create pivot tables to analyze the relation between the relevant discreet variables with the number of rentals. We begin by counting how many rentals there were per year and obtain, as expected, that there were more rentals in the second year. Doing the same for months and seasons, we confirm that there were more rentals towards the middle of the year, while doing it for days of the days of the week we obtain that the number of rentals increases as the week progresses, reaching a maximum on Friday. Finally, we calculate the average number of rentals for each weather situation (the higher the number, the less clear the weather) and obtain, as expected, that the clearer the weather the more rentals there are.
 
