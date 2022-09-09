@@ -1,4 +1,4 @@
-# Bike Sharing Regression
+# Bike Sharing Regression with Python
 
 This is a regression project using Python and a data set containing information about bicycle rentals, weather conditions and holiday dates. Our goal was to use this data set to compare different regression algorithms and find which one performs best at predicting how many bicycles will be rented in a given day, taking into account time of the year, day of the week, temperature, among other features. The algorithms we tested were linear regression, polynomial linear regression, decision tree regression, random forest regression, support vector regression and neural network regression.
 
