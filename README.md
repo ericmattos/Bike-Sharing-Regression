@@ -42,6 +42,8 @@ The first step (when applicable) is the tuning of the parameters, in which we us
 
 Once we determine the parameters, we use the cross validation to calculate the r2 score and the (negative) mean absolute error, where cross validation means using different train-test splits. We will set k=10, meaning that we are going to split the base in ten parts and alternate which one is used for the test. We will do this with 30 different splits. At the end of this process, we are going to have arrays with 30 different values of r2 score and mean absolute error, which we will use to evaluate how well the algorithm has performed.
 
+It sould be noted that the value we are going to obtain for the mean absolute error is not the real value of the error, since we will be working with standardized data. However, since we are only interested in comparing the results for different algorithms, this value is still useful for us.
+
 ### 4.1. Linear Regression
 
 The first algorithm we are going to consider is the linear regressor. This algorithm seeks a linear relation between the attributes and what we want to predict.
