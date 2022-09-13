@@ -24,7 +24,7 @@ Since “temperature” had one of the highest correlations with the number of r
 
 ![Rentals per temperature](bike_sharing_scatter.png)
 
-Our last step is to create pivot tables to analyze the relation between the relevant discreet variables with the number of rentals. We begin by counting how many rentals there were per year and obtain, as expected, that there were more rentals in the second year. Doing the same for months and seasons, we confirm that there were more rentals towards the middle of the year, while doing it for days of the days of the week we obtain that the number of rentals increases as the week progresses, reaching a maximum on Friday. Finally, we calculate the average number of rentals for each weather situation (the higher the number, the less clear the weather) and obtain, as expected, that the clearer the weather the more rentals there are.
+Our last step is to create pivot tables to analyze the relation between the relevant discreet variables with the number of rentals. We begin by counting how many rentals there were per year and obtain, as expected, that there were more rentals in the second year. Doing the same for months and seasons, we confirm that there were more rentals towards the middle of the year, while calculating the mean for the days of the days of the week we obtain that the number of rentals increases as the week progresses, reaching a maximum on Friday. Finally, we calculate the average number of rentals for each weather situation (the higher the number, the less clear the weather) and obtain, as expected, that the clearer the weather the more rentals there are.
 
 ## 3. Preprocessing
 
